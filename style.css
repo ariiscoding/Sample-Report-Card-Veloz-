@@ -1,0 +1,80 @@
+* {
+    font-size: 25px;
+}
+
+body {
+    flex-direction: column;
+}
+
+body > div {
+    margin-left: 20px;
+}
+
+.topHeader {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+#reportName {
+    font-size: 40px;
+    float: left;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#phoneNumber {
+    float: right;
+    margin-top:15px;
+    margin-right: 5px;
+}
+
+.studentInfoContainer {
+    display:inline-flex;
+    margin-top: 45px;
+}
+
+.studentInfoHeader{
+    float:left;
+    font-weight: bold;
+}
+
+.studentInfoDetail {
+    float: right;
+    margin-left:25px;
+}
+
+.gradeContainer {
+    margin-top: 45px;
+    flex-direction: column;
+}
+
+.semester {
+    margin-bottom: 30px;
+}
+
+.semester header {
+    font-weight: bold;
+    font-size:30px;
+}
+
+.courseContainer {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.courseName {
+    float:left;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.courseGrade {
+    float: left;
+    margin-left:40px;
+}
+
+.bottomPanel {
+    margin-top:45px;
+}
